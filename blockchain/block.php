@@ -101,8 +101,7 @@ for ($i = 0; $i <= 10; $i++) {
     $previous_block = $new_block;
     //告诉大家新增了一个区块
     echo "恭喜！新的区块已诞生.区块ID是 : {$new_block->index}<br/>";
-    echo "新区块哈希值是 : {$new_block->hash}<br/>";
-    echo "当前的区块结构，如下 ：<br/>";
+    echo "新区块哈希值是 : {$new_block->hash}<br/>当前的区块结构，如下 ：<br/>";
     echo "<pre>";
     print_r($new_block);
     echo "<br/><hr/>";
